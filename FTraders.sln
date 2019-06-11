@@ -1,0 +1,42 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26124.0
+MinimumVisualStudioVersion = 15.0.26124.0
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Src", "Src", "{D3BDDB20-4261-41BA-A735-1294C838D170}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Core", "Core", "{4C8E1A58-9ACE-46ED-8870-AD0211AF5AAF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FTraders.Domain", "Src\Core\FTraders.Domain\FTraders.Domain.csproj", "{359C4809-DE53-404D-9F09-59E914CE7A12}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|Any CPU = Release|Any CPU
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{359C4809-DE53-404D-9F09-59E914CE7A12}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{359C4809-DE53-404D-9F09-59E914CE7A12}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{359C4809-DE53-404D-9F09-59E914CE7A12}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{359C4809-DE53-404D-9F09-59E914CE7A12}.Debug|x64.Build.0 = Debug|Any CPU
+		{359C4809-DE53-404D-9F09-59E914CE7A12}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{359C4809-DE53-404D-9F09-59E914CE7A12}.Debug|x86.Build.0 = Debug|Any CPU
+		{359C4809-DE53-404D-9F09-59E914CE7A12}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{359C4809-DE53-404D-9F09-59E914CE7A12}.Release|Any CPU.Build.0 = Release|Any CPU
+		{359C4809-DE53-404D-9F09-59E914CE7A12}.Release|x64.ActiveCfg = Release|Any CPU
+		{359C4809-DE53-404D-9F09-59E914CE7A12}.Release|x64.Build.0 = Release|Any CPU
+		{359C4809-DE53-404D-9F09-59E914CE7A12}.Release|x86.ActiveCfg = Release|Any CPU
+		{359C4809-DE53-404D-9F09-59E914CE7A12}.Release|x86.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{4C8E1A58-9ACE-46ED-8870-AD0211AF5AAF} = {D3BDDB20-4261-41BA-A735-1294C838D170}
+		{359C4809-DE53-404D-9F09-59E914CE7A12} = {4C8E1A58-9ACE-46ED-8870-AD0211AF5AAF}
+	EndGlobalSection
+EndGlobal
