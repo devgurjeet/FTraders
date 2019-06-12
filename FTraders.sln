@@ -1,21 +1,25 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 15
-VisualStudioVersion = 15.0.26124.0
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.28803.352
 MinimumVisualStudioVersion = 15.0.26124.0
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Src", "Src", "{D3BDDB20-4261-41BA-A735-1294C838D170}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Core", "Core", "{4C8E1A58-9ACE-46ED-8870-AD0211AF5AAF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FTraders.Domain", "Src\Core\FTraders.Domain\FTraders.Domain.csproj", "{359C4809-DE53-404D-9F09-59E914CE7A12}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FTraders.Domain", "Src\Core\FTraders.Domain\FTraders.Domain.csproj", "{359C4809-DE53-404D-9F09-59E914CE7A12}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{B1C95DAE-88FC-4EF0-8B52-BB15F0DBE9F3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FTrader.Domain.Tests", "Tests\FTrader.Domain.Tests\FTrader.Domain.Tests.csproj", "{BC12C944-5095-45F8-BF5E-E518382B23FA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FTrader.Domain.Tests", "Tests\FTrader.Domain.Tests\FTrader.Domain.Tests.csproj", "{BC12C944-5095-45F8-BF5E-E518382B23FA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FTraders.Application", "Src\Core\FTraders.Application\FTraders.Application.csproj", "{0CCC8B70-F250-44B2-B4A2-C7ADD1FB67C2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FTraders.Application", "Src\Core\FTraders.Application\FTraders.Application.csproj", "{0CCC8B70-F250-44B2-B4A2-C7ADD1FB67C2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FTraders.Application.Tests", "Tests\FTraders.Application.Tests\FTraders.Application.Tests.csproj", "{7DA511EE-0665-4EE2-8D40-DD885C3267D7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FTraders.Application.Tests", "Tests\FTraders.Application.Tests\FTraders.Application.Tests.csproj", "{7DA511EE-0665-4EE2-8D40-DD885C3267D7}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Common", "Common", "{11D042F8-986F-4FF5-AC0D-D18F291F82F5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FTraders.Common", "Src\Common\FTraders.Common\FTraders.Common.csproj", "{D7F64192-CB0A-4496-A9FB-DE6CB83B0707}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastructure", "Infrastructure", "{52DFBE8B-2C2B-4230-A563-E3D419CD1714}"
 EndProject
@@ -29,9 +33,6 @@ Global
 		Release|Any CPU = Release|Any CPU
 		Release|x64 = Release|x64
 		Release|x86 = Release|x86
-	EndGlobalSection
-	GlobalSection(SolutionProperties) = preSolution
-		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{359C4809-DE53-404D-9F09-59E914CE7A12}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
@@ -82,6 +83,7 @@ Global
 		{7DA511EE-0665-4EE2-8D40-DD885C3267D7}.Release|x64.Build.0 = Release|Any CPU
 		{7DA511EE-0665-4EE2-8D40-DD885C3267D7}.Release|x86.ActiveCfg = Release|Any CPU
 		{7DA511EE-0665-4EE2-8D40-DD885C3267D7}.Release|x86.Build.0 = Release|Any CPU
+<<<<<<< HEAD
 		{6DFAA9B6-C72D-41BA-91C4-B3D9546DEA8E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{6DFAA9B6-C72D-41BA-91C4-B3D9546DEA8E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6DFAA9B6-C72D-41BA-91C4-B3D9546DEA8E}.Debug|x64.ActiveCfg = Debug|Any CPU
@@ -94,6 +96,23 @@ Global
 		{6DFAA9B6-C72D-41BA-91C4-B3D9546DEA8E}.Release|x64.Build.0 = Release|Any CPU
 		{6DFAA9B6-C72D-41BA-91C4-B3D9546DEA8E}.Release|x86.ActiveCfg = Release|Any CPU
 		{6DFAA9B6-C72D-41BA-91C4-B3D9546DEA8E}.Release|x86.Build.0 = Release|Any CPU
+=======
+		{D7F64192-CB0A-4496-A9FB-DE6CB83B0707}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D7F64192-CB0A-4496-A9FB-DE6CB83B0707}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D7F64192-CB0A-4496-A9FB-DE6CB83B0707}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{D7F64192-CB0A-4496-A9FB-DE6CB83B0707}.Debug|x64.Build.0 = Debug|Any CPU
+		{D7F64192-CB0A-4496-A9FB-DE6CB83B0707}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{D7F64192-CB0A-4496-A9FB-DE6CB83B0707}.Debug|x86.Build.0 = Debug|Any CPU
+		{D7F64192-CB0A-4496-A9FB-DE6CB83B0707}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D7F64192-CB0A-4496-A9FB-DE6CB83B0707}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D7F64192-CB0A-4496-A9FB-DE6CB83B0707}.Release|x64.ActiveCfg = Release|Any CPU
+		{D7F64192-CB0A-4496-A9FB-DE6CB83B0707}.Release|x64.Build.0 = Release|Any CPU
+		{D7F64192-CB0A-4496-A9FB-DE6CB83B0707}.Release|x86.ActiveCfg = Release|Any CPU
+		{D7F64192-CB0A-4496-A9FB-DE6CB83B0707}.Release|x86.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+>>>>>>> master
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{4C8E1A58-9ACE-46ED-8870-AD0211AF5AAF} = {D3BDDB20-4261-41BA-A735-1294C838D170}
@@ -101,7 +120,15 @@ Global
 		{BC12C944-5095-45F8-BF5E-E518382B23FA} = {B1C95DAE-88FC-4EF0-8B52-BB15F0DBE9F3}
 		{0CCC8B70-F250-44B2-B4A2-C7ADD1FB67C2} = {4C8E1A58-9ACE-46ED-8870-AD0211AF5AAF}
 		{7DA511EE-0665-4EE2-8D40-DD885C3267D7} = {B1C95DAE-88FC-4EF0-8B52-BB15F0DBE9F3}
+<<<<<<< HEAD
 		{52DFBE8B-2C2B-4230-A563-E3D419CD1714} = {D3BDDB20-4261-41BA-A735-1294C838D170}
 		{6DFAA9B6-C72D-41BA-91C4-B3D9546DEA8E} = {52DFBE8B-2C2B-4230-A563-E3D419CD1714}
+=======
+		{11D042F8-986F-4FF5-AC0D-D18F291F82F5} = {D3BDDB20-4261-41BA-A735-1294C838D170}
+		{D7F64192-CB0A-4496-A9FB-DE6CB83B0707} = {11D042F8-986F-4FF5-AC0D-D18F291F82F5}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {8E4A76BD-FC03-4E5B-BCC7-ED9D5451A1CC}
+>>>>>>> master
 	EndGlobalSection
 EndGlobal
